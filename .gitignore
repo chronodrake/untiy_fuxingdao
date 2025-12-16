@@ -5,6 +5,7 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
+test/
 
 # Visual Studio cache directory
 .vs/
@@ -26,6 +27,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.log
 
 # Builds
 *.apk
