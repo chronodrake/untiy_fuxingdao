@@ -1,0 +1,16 @@
+# Blender 4.5.0 MTL File: 'None'
+# www.blender.org
+
+newmtl tripo_mat_2cc12af1-7445-453d-b0c7-5e8a1a4cbd3a
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd 老木窗_basecolor.JPEG
+map_Ns 老木窗_roughness.JPEG
+map_Pr 老木窗_roughness.JPEG
+map_refl 老木窗_metallic.JPEG
+map_Pm 老木窗_metallic.JPEG
+map_Bump -bm 1.000000 老木窗_normal.JPEG

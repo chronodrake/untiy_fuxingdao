@@ -1,0 +1,16 @@
+# Blender 4.5.0 MTL File: 'None'
+# www.blender.org
+
+newmtl tripo_mat_ee4e2beb-d965-46a6-99e5-095ca9ec3c60
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd 老防汛墙_basecolor.JPEG
+map_Ns 老防汛墙_roughness.JPEG
+map_Pr 老防汛墙_roughness.JPEG
+map_refl 老防汛墙_metallic.JPEG
+map_Pm 老防汛墙_metallic.JPEG
+map_Bump -bm 1.000000 老防汛墙_normal.JPEG

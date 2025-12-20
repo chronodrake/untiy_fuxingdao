@@ -1,0 +1,16 @@
+# Blender 4.5.0 MTL File: 'None'
+# www.blender.org
+
+newmtl tripo_mat_e8f63d12-dc0b-49d4-a1d9-43c3a57413ed
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd 爬山虎标本_basecolor.JPEG
+map_Ns 爬山虎标本_roughness.JPEG
+map_Pr 爬山虎标本_roughness.JPEG
+map_refl 爬山虎标本_metallic.JPEG
+map_Pm 爬山虎标本_metallic.JPEG
+map_Bump -bm 1.000000 爬山虎标本_normal.JPEG
