@@ -158,7 +158,7 @@ PrefabInstance:
     - target: {fileID: 3991973942380455354, guid: 6c5e61ad8d2b39f4da6fc035d795d871,
         type: 3}
       propertyPath: m_Name
-      value: StartButton Variant
+      value: "\u6309\u94AE\uFF08\u5355\u51FB\uFF09"
       objectReference: {fileID: 0}
     - target: {fileID: 3991973942380455355, guid: 6c5e61ad8d2b39f4da6fc035d795d871,
         type: 3}
