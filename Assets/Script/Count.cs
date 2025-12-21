@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,18 +12,30 @@ public class PickupManager : MonoBehaviour
     public int targetCount = 9; // 目标拾取数量
 
     private int currentCount = 0; // 当前拾取数量
+    public List<Transform> itemList = new List<Transform> ();
+
+    public NavMeshPathLineRenderer guide;
+
+
 
     void Awake()
     {
         // 单例初始化（确保场景中只有一个管理器）
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
+        
     }
 
     void Start()
     {
         // 初始化UI显示（0/9）
         UpdateCountUI();
+        
+    }
+
+    private void Update()
+    {
+        guide.target = itemList[0];
     }
 
     // 外部调用：拾取一个物品时增加计数
@@ -54,5 +67,10 @@ public class PickupManager : MonoBehaviour
             countText.text = "所有时光碎片已集齐！将前往博物馆中央的‘无界之厅’，解锁最终的顿悟";
             countText.color = Color.green;
         }
+    }
+
+    public void DeleteItem(Transform item)
+    {
+        itemList.Remove(item);
     }
 }
