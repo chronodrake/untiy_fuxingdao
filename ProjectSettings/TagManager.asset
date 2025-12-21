@@ -19,6 +19,7 @@ TagManager:
   - ScarecrowHead
   - FireableArrow
   - TeleportValid
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - Water
   - UI
   - Object
-  - 
+  - Wall
   - IgnoreTeleportPointer
   - 
   - 
