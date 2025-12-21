@@ -6,13 +6,13 @@ public class ActivatePlaySound : MonoBehaviour
     [SerializeField] private AudioClip activateSound; // 激活时播放的音效文件
     [SerializeField] private float soundVolume = 1f; // 音效音量（0-1）
     [SerializeField] private bool isLoop = false; // 是否循环播放（激活音效一般设为false）
-
     private AudioSource audioSource; // 音频播放组件
 
     void Awake()
     {
         // 自动给物体添加AudioSource组件（无需手动添加）
         audioSource = gameObject.GetComponent<AudioSource>();
+
         if (audioSource == null)
         {
             audioSource = gameObject.AddComponent<AudioSource>();

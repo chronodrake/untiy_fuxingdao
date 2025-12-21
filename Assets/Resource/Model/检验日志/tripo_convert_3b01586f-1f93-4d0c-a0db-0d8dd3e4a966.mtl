@@ -1,0 +1,16 @@
+# Blender 4.5.0 MTL File: 'block_assets.blend'
+# www.blender.org
+
+newmtl tripo_mat_3b01586f-1f93-4d0c-a0db-0d8dd3e4a966
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd tripo_model_basecolor.JPEG
+map_Ns tripo_model_roughness.JPEG
+map_Pr tripo_model_roughness.JPEG
+map_refl tripo_model_metallic.JPEG
+map_Pm tripo_model_metallic.JPEG
+map_Bump -bm 1.000000 tripo_model_normal.JPEG

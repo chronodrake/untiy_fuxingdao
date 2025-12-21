@@ -7,7 +7,7 @@ public class PickupManager : MonoBehaviour
     public static PickupManager Instance; // 单例，方便物品触发器调用
 
     [Header("UI设置")]
-    public TMP_Text countText; // Canvas上的文本组件（显示计数）
+    public Text countText; // Canvas上的文本组件（显示计数）
     public int targetCount = 9; // 目标拾取数量
 
     private int currentCount = 0; // 当前拾取数量
@@ -51,7 +51,7 @@ public class PickupManager : MonoBehaviour
         }
         if (currentCount==targetCount)
         {
-            countText.text = "所有时光碎片已集齐！将前往博物馆中央的‘无界之厅’，解锁最终的顿悟";
+            countText.text = "所有时光碎片已集齐！\n将前往博物馆中央的‘无界之厅’，解锁最终的顿悟";
             countText.color = Color.green;
         }
     }
